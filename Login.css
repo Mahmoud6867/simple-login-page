@@ -1,0 +1,87 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: "Lato", sans-serif ;
+}
+.a{
+    height:1080px;
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    text-align: center;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.login-btn {
+    font-size: medium;
+    margin-bottom: 10px;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white; 
+    border: 1px solid #f3f1ff;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .login-btn:hover{
+    border: 1px solid rgb(0, 132, 255);
+  }
+  
+  
+  .google-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .login-options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.text {
+    display: flex;
+  padding: 0 10px;
+  font-size:large
+}
+.inputDiv{
+    justify-content:start;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #f3f1ff ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inputArea{
+    padding: 10px;
+    width: 70%;
+    border: none;
+    background-color: #f3f1ff;
+}
+.inputArea:focus{
+    border: none;
+}
+.loginNow-btn{
+    font-size: large;
+    font-weight: bold;
+    margin:20px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #8978f3, #5a43ee);
+    box-shadow: 5px 5px 5px #dfdfdf;
+}
+
