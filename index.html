@@ -1,72 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./Login.css" />
-    <title>Login</title>
-  </head>
-  <body>
-    <div class="mainContainer">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./Login.css" />
+  <title>Login</title>
+</head>
+
+<body>
+  <div class="mainContainer">
     <!-- left side -->
-    <div class="a">
-        <div style="width: 50%; margin:200px">
-      <p style="font-size:50px; font-weight:900;">LOGIN</p>
-      <p style="color: #525252; font-weight:400">How to get started and login</p>
-      <!-- form -->
-      <form>
-        <!-- username -->
-        <div class="inputDiv">
-          <img
-            src="./person.svg"
-            alt="username"
-            width="20"
-            height="20"
-          />
-          <p>Username</p>
-          <input class="inputArea" type="text" />
+    <div class="column">
+      <div class="formContainer">
+        <p style="font-size:50px; font-weight:900;">LOGIN</p>
+        <p style="color: #525252; font-weight:400">How to get started and login</p>
+        <!-- form -->
+        <form>
+          <!-- username -->
+          <div class="inputDiv">
+            <img src="./person.svg" alt="username" width="20" height="20" />
+            <p>Username</p>
+            <input class="inputArea" type="text" />
+          </div>
+          <!-- password -->
+          <div class="inputDiv">
+            <img src="./lock.svg" alt="password" width="20" height="20" />
+            <p>Password</p>
+            <input class="inputArea" type="password" />
+          </div>
+          <!-- button -->
+          <button class="loginNow-btn">Login Now</button>
+        </form>
+        <div class="login-options">
+          <div class="line"></div>
+          <div class="text">
+            <p style="font-weight: bolder">Login</p>
+            <p>&nbsp;with others</p>
+          </div>
+          <div class="line"></div>
         </div>
-        <!-- password -->
-        <div class="inputDiv">
-          <img src="./lock.svg" alt="password" width="20" height="20" />
-          <p>Password</p>
-          <input class="inputArea" type="password" />
-        </div>
-        <!-- button -->
-        <button class="loginNow-btn">Login Now</button>
-      </form>
-      <div class="login-options">
-        <div class="line"></div>
-        <div class="text"><p style="font-weight: bolder">Login</p><p>&nbsp;with others</p></div>
-        <div class="line"></div>
+
+        <!-- google login -->
+        <button class="loginWith-btn">
+          <img src="./google.png" alt="Google Logo" class="login-logo" />
+          <p>Login with
+          <p style="font-weight: bolder;">&nbsp;Google</p>
+          </p>
+        </button>
+        <!-- facebook login -->
+        <button class="loginWith-btn">
+          <img src="./facebook.png" alt="Facebook Logo" class="login-logo" />
+          <p>Login with
+          <p style="font-weight: bolder;">&nbsp;Facebook</p>
+          </p>
+        </button>
       </div>
-      
-          <!-- google login -->
-          <button class="login-btn">
-              <img src="./google.png" alt="Google Logo" class="google-logo" />
-              <p>Login with <p style="font-weight: bolder;">&nbsp;Google</p></p>
-            </button>
-            <!-- facebook login -->
-            <button class="login-btn">
-                <img
-                src="./facebook.png"
-                alt="Facebook Logo"
-                class="google-logo"
-                />
-                <p>Login with <p style="font-weight: bolder;">&nbsp;Facebook</p></p>
-            </button>
-        </div>
     </div>
     <!-- right side -->
-    <div class="a">
-        <img src="./backgroundImage.jpeg" class="backgroundImg" alt="Google Logo"/>
+    <div class="column">
+      <img src="./backgroundImage.jpeg" class="backgroundImg" alt="Google Logo" />
     </div>
   </div>
-  </body>
+</body>
+
 </html>
